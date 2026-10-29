@@ -1,0 +1,17 @@
+{
+  "name": "fieldservice-customer-usage-metering",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/fieldservice_usage.ts",
+    "test": "node --experimental-strip-types src/fieldservice_usage.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
